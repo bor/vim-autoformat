@@ -82,6 +82,13 @@ if !exists('g:formatters_json')
 endif
 
 
+" Perl
+let g:formatdef_perltidy = '"perltidy -st"'
+if !exists('g:formatters_perl')
+    let g:formatters_perl = [ 'perltidy' ]
+endif
+
+
 " Ruby
 let g:formatdef_rbeautify = '"rbeautify ".(&expandtab ? "-s -c ".&shiftwidth : "-t")'
 if !exists('g:formatters_ruby')

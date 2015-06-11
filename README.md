@@ -123,6 +123,10 @@ Here is the link to the SASS homepage: http://sass-lang.com/.
 It's probably in your distro's repository, so you can download it as a regular package.
 For Ubuntu type `sudo apt-get install tidy` in a terminal.
 
+* `perltidy` for __Perl__.
+It's probably in your distro's repository, but could be installed by running `cpan/cpanm Perl::Tidy` also.
+Homepage: https://metacpan.org/release/Perl-Tidy.
+
 * `rbeautify` for __Ruby__.
 It is shipped with `ruby-beautify`, which can be installed by running `gem install ruby-beautify`.
 Note that compatible `ruby-beautify-0.94.0` or higher version.
